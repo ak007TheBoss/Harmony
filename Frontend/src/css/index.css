@@ -1,0 +1,48 @@
+p {
+    color: white;
+    font-size: 17px;
+}
+
+.round{
+    border-radius: 50%;
+}
+.card-text{
+    color: black !important;
+}
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    height: 300px;
+    object-fit: cover;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* icons svg */
+.round{
+    border-radius: 50%;
+}
+.card-text{
+    color: black !important;
+}
+.mar{
+    margin-left: 100px;
+}
+.mars{
+    margin-left: 75px;
+}
+
+/* carousel img and text */
+.carimg{
+    height: 80vh;
+    width: 100%;
+}
+.cartext{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}

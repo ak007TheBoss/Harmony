@@ -1,0 +1,10 @@
+.mars{
+    margin-left: 75px;
+}
+.cardedit{
+    background-color: black;
+    color: white
+}
+.cardedit p{
+    color: white !important; 
+}

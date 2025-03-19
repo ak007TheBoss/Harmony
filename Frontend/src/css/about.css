@@ -1,0 +1,109 @@
+.navbar {
+    background-color: #f5c216;
+    border-radius: 7px;
+    z-index: 1 !important;
+}
+
+.logo {
+    height: 75px;
+    width: 100%;
+    background-size: cover;
+    padding: 5px;
+}
+
+.map {
+    width: 100%;
+}
+
+p {
+    color: white;
+    font-size: 17px;
+}
+/* text animatin */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes fadeInUp {   
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Delay each paragraph slightly */
+.fade-in:nth-child(1) {
+    animation-delay: 0.3s;
+}
+
+.fade-in:nth-child(2) {
+    animation-delay: 0.6s;
+}
+
+.fade-in:nth-child(3) {
+    animation-delay: 0.9s;
+}
+
+
+/* Scroll animation effect */
+.scroll-popup {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.scroll-popup.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Add some spacing for scroll effect */
+.spacer {
+    height: 100vh;
+}
+
+
+/* icons svg */
+.round{
+    border-radius: 50%;
+}
+.card-text{
+    color: black !important;
+}
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    height: 300px;
+    object-fit: cover;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* icons svg */
+.round{
+    border-radius: 50%;
+}
+.card-text{
+    color: black !important;
+}
+.mar{
+    margin-left: 100px;
+}
+.mars{
+    margin-left: 75px;
+}
+.teamimg img{
+    height: 50vh;
+    width: 80%;
+}
