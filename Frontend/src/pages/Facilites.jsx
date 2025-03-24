@@ -7,6 +7,7 @@ import buil2 from '../testimgs/randomb2.avif'
 import buil3 from '../testimgs/randomb3.jpg'
 import { Link } from 'react-router-dom'
 const Facilites = () => {
+  
   return (
     <>
         <Navbarcomponent/>
@@ -52,12 +53,8 @@ const Facilites = () => {
           
         </div>
         <div className='container shadow-lg my-3'>
-          <h1>Hygenic and nutritious meals</h1>
+          <h1>Hygienic and nutritious meals</h1>
         </div>
-        <div className='container shadow-lg my-3'>
-            <h1>Laundry Services</h1>
-        </div>
-
         {/* all services */}
         <div className='container shadow-lg'>
         <h1 className='text-center mb-3'>Services We Provide</h1>
@@ -67,7 +64,7 @@ const Facilites = () => {
             <div className="card" style={{width: "18rem"}}>
             <img src={buil3} className="card-img-top" alt={buil3}/>
             <div className="card-body cardedit">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Fast Wifi</h5>
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
             </div>
@@ -77,7 +74,7 @@ const Facilites = () => {
             <div className="card" style={{width: "18rem"}}>
             <img src={buil3} className="card-img-top" alt={buil3}/>
             <div className="card-body cardedit">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">24/7 Water Supply</h5>
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
             </div>
@@ -87,7 +84,7 @@ const Facilites = () => {
             <div className="card" style={{width: "18rem"}}>
             <img src={buil3} className="card-img-top" alt={buil3}/>
             <div className="card-body cardedit">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Laundry</h5>
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
             </div>
@@ -97,7 +94,7 @@ const Facilites = () => {
             <div className="card" style={{width: "18rem"}}>
             <img src={buil3} className="card-img-top" alt={buil3}/>
             <div className="card-body cardedit">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Clean Drinking water</h5>
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
             </div>
@@ -107,7 +104,7 @@ const Facilites = () => {
             <div className="card" style={{width: "18rem"}}>
             <img src={buil3} className="card-img-top" alt={buil3}/>
             <div className="card-body cardedit">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Electricity</h5>
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
             </div>
@@ -117,7 +114,7 @@ const Facilites = () => {
             <div className="card" style={{width: "18rem"}}>
             <img src={buil3} className="card-img-top" alt={buil3}/>
             <div className="card-body cardedit">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Peaceful Environment</h5>
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
             </div>
@@ -125,6 +122,8 @@ const Facilites = () => {
             
         </div>
         </div>
+
+        
     </>
   )
 }
